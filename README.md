@@ -10,3 +10,13 @@ sudo apt install nodejs -y
 sudo npm install edge-impulse-linux -g –unsafe-perm
 
 edge-impulse-linux-runner
+
+# Setup
+
+$ edge-impulse-linux-runner
+
+Loguearse, seleccionar el proyecto, seleccionar la webcam, modelo quantizado
+
+Subir arduino.py
+
+$ python3 arduino.py
