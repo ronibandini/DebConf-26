@@ -20,3 +20,6 @@ Loguearse, seleccionar el proyecto, seleccionar la webcam, modelo quantizado
 Subir arduino.py
 
 $ python3 arduino.py
+
+# ML Model
+https://studio.edgeimpulse.com/studio/1062918
