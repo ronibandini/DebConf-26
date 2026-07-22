@@ -1,3 +1,5 @@
+<img width="600" height="597" alt="CharlaDebConf26Small" src="https://github.com/user-attachments/assets/ae98648c-7ee5-4576-8d71-6635610d857d" />
+
 # DebConf-26
 Edge ML Project for DebConf 26
 
