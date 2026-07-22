@@ -1,6 +1,6 @@
 <img width="600" alt="DebConf 26 - Edge Machine Learning" src="https://github.com/user-attachments/assets/ae98648c-7ee5-4576-8d71-6635610d857d" />
 
-# 🤖 Edge Machine Learning on Debian
+# 🤖 Edge Machine Learning on Small Devices with Debian
 ### DebConf 26 Demo Project
 
 This repository contains the code and setup instructions for the live demo presented at **DebConf 26**.
