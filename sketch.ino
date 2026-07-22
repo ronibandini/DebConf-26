@@ -1,3 +1,6 @@
+// Sketch para recibir string desde Python vía bridge e imprimir usando el LED Matrix
+// Roni Bandini, 7/2026
+
 #include <Arduino_LED_Matrix.h>
 #include <Arduino_RouterBridge.h>
 
@@ -10,10 +13,6 @@ constexpr int MATRIX_HEIGHT = 8;
 constexpr int SCROLL_DELAY_MS = 80;
 
 
-/*
- * Returns one vertical column of a 5x7 character.
- * Bit 0 is the top pixel; bit 6 is the bottom pixel.
- */
 uint8_t glyphColumn(char character, uint8_t column) {
   character = toupper(character);
 
@@ -216,7 +215,7 @@ void displayText(String message) {
   clearFrame();
   matrix.draw(frame);
 
-  // Blank columns before the text enters.
+  // Columnas en blanco antes de que entre el text
   for (int i = 0; i < MATRIX_WIDTH; i++) {
     shiftLeft(0);
   }
@@ -238,7 +237,7 @@ void displayText(String message) {
     shiftLeft(0);
   }
 
-  // Let the final text leave the display.
+  // Dejar que salga lo último
   for (int i = 0; i < MATRIX_WIDTH; i++) {
     shiftLeft(0);
   }
