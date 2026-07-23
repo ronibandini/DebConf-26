@@ -1,4 +1,6 @@
-// Sketch para recibir string desde Python vía bridge e imprimir usando el LED Matrix
+// Ardquino UNO Q Sketch 
+// It will receive text strings from the bridget to be scrolled on the LED Matrix
+// MIT License
 // Roni Bandini, 7/2026
 
 #include <Arduino_LED_Matrix.h>
