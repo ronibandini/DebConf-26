@@ -1,7 +1,6 @@
-# Jaime Arduino UNO Q Agentic robot
-# MCU MPU Bridge
+# Arduino UNO Q Python MCU-MPU Bridge
 # Roni Bandini July 2026 - MIT License
-# sudo apt install python3-msgpack
+# Requirements: $ sudo apt install python3-msgpack
 # Run in the background with $ nohup python3 bridge.py > bridge.log 2>&1 & 
 
 import socket
