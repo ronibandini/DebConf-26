@@ -1,4 +1,4 @@
-# Arduino UNO Q Edge Impulse watch detector
+# Arduino UNO Q Edge Impulse to protect an item with ML
 # Executes edge-impulse-linux-runner and parses its output
 # DebConf '26 
 # Roni Bandini @ronibandini 07/2026 MIT License
