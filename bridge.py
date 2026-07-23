@@ -1,5 +1,5 @@
 # Arduino UNO Q Python MCU-MPU Bridge
-# Roni Bandini July 2026 - MIT License
+# Based on this code https://docs.arduino.cc/tutorials/uno-q/routerbridge-multilanguage/
 # Requirements: $ sudo apt install python3-msgpack
 # Run in the background with $ nohup python3 bridge.py > bridge.log 2>&1 & 
 
